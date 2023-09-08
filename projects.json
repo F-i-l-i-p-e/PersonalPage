@@ -50,23 +50,23 @@
         }
     },
     {
-        "name": "",
+        "name": "Game List Webapp",
         "description": "The application is a web-based platform that presents information about various games. Users can interact with game data, presented in a structured format. This project showcases the process of building web applications with ASP.NET Core MVC.",
         "techStack": "Developed using <span class=highlightWord>ASP.NET Core MVC</span>, the application adheres to the  <span class=highlightWord>MVC (Model-View-Controller) pattern</span>. It emphasizes the <span class=highlightWord>creation and management of models, services, and controllers, data retrieval and manipulation in JSON format</span>. It utilizes models to represent data; services for business logic and controllers for routing and logic.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/GameTop10.Website-Asp-/main/Print%20GameListApp.jpg",
         "button": {
-            "label": "View on GitHub",
+            "label": "Repository on GitHub",
             "link": "https://github.com/F-i-l-i-p-e/GameTop10.Website-Asp-"
         }
     },
     {
-        "name": "ChatZone",
-        "description": "A real-time chat application with integrated video calling.",
-        "techStack": "Socket.io, WebRTC",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "name": "Document and Invoice",
+        "description": "The application is a Python-based toolset designed to create, process, and analyze invoice documents. It can generate random invoice Word documents and subsequently extract specific invoice data to populate an Excel spreadsheet. This project demonstrates how to automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, teaching techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents to populate Excel sheets.",
+        "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.jpg", 
         "button": {
-            "label": "View on GitHub",
-            "link": "https://github.com/user/chatzone"
+            "label": "Repository on GitHub",
+            "link": "https://github.com/F-i-l-i-p-e/PythonDocAndInvoice"
         }
     },
     {
