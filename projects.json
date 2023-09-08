@@ -1,0 +1,42 @@
+[
+  {
+      "name": "Webify",
+      "description": "A web development toolkit offering a wide range of utilities.",
+      "techStack": "React, Node.js",
+      "image": "https://sample.image/link1.jpg",
+      "button": {
+          "label": "View on GitHub",
+          "link": "https://github.com/user/webify"
+      }
+  },
+  {
+      "name": "DataDive",
+      "description": "A data visualization tool for generating quick insights.",
+      "techStack": "D3.js, Python",
+      "image": "https://sample.image/link2.jpg",
+      "button": {
+          "label": "View on GitHub",
+          "link": "https://github.com/user/datadive"
+      }
+  },
+  {
+      "name": "AutoML",
+      "description": "An automated machine learning platform for quick model training.",
+      "techStack": "TensorFlow, Flask",
+      "image": "https://sample.image/link3.jpg",
+      "button": {
+          "label": "View on GitHub",
+          "link": "https://github.com/user/automl"
+      }
+  },
+  {
+      "name": "ChatZone",
+      "description": "A real-time chat application with integrated video calling.",
+      "techStack": "Socket.io, WebRTC",
+      "image": "https://sample.image/link4.jpg",
+      "button": {
+          "label": "View on GitHub",
+          "link": "https://github.com/user/chatzone"
+      }
+  }
+]
