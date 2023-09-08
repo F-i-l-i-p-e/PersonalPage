@@ -60,8 +60,8 @@
         }
     },
     {
-        "name": "Document and Invoice",
-        "description": "The application is a Python-based toolset designed to create, process, and analyze invoice documents. It can generate random invoice Word documents and subsequently extract specific invoice data to populate an Excel spreadsheet. This project demonstrates how to automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, teaching techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents to populate Excel sheets.",
+        "name": "Document and Invoice App",
+        "description": "A Python-based toolset designed to create, process, and analyze invoice documents. Generate random invoice Word documents and extract specific invoice data to populate an Excel spreadsheet. This project automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, using techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents.",
         "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.jpg", 
         "button": {
