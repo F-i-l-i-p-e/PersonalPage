@@ -11,12 +11,12 @@
     },
     {
         "name": "DataDive",
-        "description": "A data visualization tool for generating quick insights.",
-        "techStack": "D3.js, Python",
+        "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes (circle, triangle, square, rectangle) and visualizes these shapes using SVG.",
+        "techStack": "The calculator is built using HTML for structure and uses Bootstrap for styling. The main interactivity and calculations are achieved using embedded JavaScript. Additionally, the application leverages external libraries like jQuery, Bootstrap's JavaScript components, and Math.js for mathematical operations.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View on GitHub",
-            "link": "https://github.com/user/datadive"
+            "link": "https://f-i-l-i-p-e.github.io/JS_AreaCalculator/"
         }
     },
     {
