@@ -1,7 +1,7 @@
 [
     {
         "name": "Form and Excel functions",
-        "description": "The project is a web application with a main page containing a form (index.html) and a secondary page demonstrating Excel-like functions (excel.html). From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
+        "description": "The project is a web application with a main page containing a form and a secondary page demonstrating Excel-like functions. From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
         "techStack": "The application is developed using HTML for structure, CSS for styling, and JavaScript for interactivity and functionality. The JavaScript code, found in script.js, leverages the Document Object Model (DOM) to manipulate webpage elements and handle events, and it also uses Web Storage (localStorage) to save theme preferences.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
@@ -11,7 +11,7 @@
     },
     {
         "name": "Area Calculator",
-        "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes (circle, triangle, square, rectangle) and visualizes these shapes using SVG.  From this project, one can learn how to create interactive web forms, perform mathematical calculations in JavaScript, manipulate SVG graphics in the DOM, and integrate with external JavaScript libraries.",
+        "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes and visualizes these shapes using SVG.  From this project creates interactive web forms, perform mathematical calculations in JavaScript, manipulate SVG graphics in the DOM, and integrate with external JavaScript libraries.",
         "techStack": "The calculator is built using HTML for structure and uses Bootstrap for styling. The main interactivity and calculations are achieved using embedded JavaScript. Additionally, the application leverages external libraries like jQuery, Bootstrap's JavaScript components, and Math.js for mathematical operations.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
