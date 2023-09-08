@@ -1,4 +1,14 @@
-[
+[    
+    {
+        "name": "Plant Encyclopedia",
+        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
+        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "button": {
+            "label": "View live on GitHub",
+            "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
+        }
+    },
     {
         "name": "Form and Excel functions",
         "description": "The project is a web application with a main page containing a form and a secondary page demonstrating Excel-like functions. From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
@@ -20,15 +30,16 @@
         }
     },
     {
-        "name": "Plant Encyclopedia",
-        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
-        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "name": "Document and Invoice App",
+        "description": "A Python-based toolset designed to create, process, and analyze invoice documents. Generate random invoice Word documents and extract specific invoice data to populate an Excel spreadsheet. This project automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, using techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents.",
+        "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.jpg", 
         "button": {
-            "label": "View live on GitHub",
-            "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
+            "label": "Repository on GitHub",
+            "link": "https://github.com/F-i-l-i-p-e/PythonDocAndInvoice"
         }
     },
+
     {
         "name": "Dulce De Leche Page",
         "description": "A webpage showcasing Dulce De Leche with a dynamic navbar, interactive image gallery, and wave effects using SVGs for styling. This project offers insights into creating responsive navbars, crafting image galleries, and enhancing web interactivity using JavaScript, emphasizing the distinctive design potential of SVG.",
@@ -57,16 +68,6 @@
         "button": {
             "label": "Repository on GitHub",
             "link": "https://github.com/F-i-l-i-p-e/GameTop10.Website-Asp-"
-        }
-    },
-    {
-        "name": "Document and Invoice App",
-        "description": "A Python-based toolset designed to create, process, and analyze invoice documents. Generate random invoice Word documents and extract specific invoice data to populate an Excel spreadsheet. This project automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, using techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents.",
-        "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.jpg", 
-        "button": {
-            "label": "Repository on GitHub",
-            "link": "https://github.com/F-i-l-i-p-e/PythonDocAndInvoice"
         }
     },
     {
