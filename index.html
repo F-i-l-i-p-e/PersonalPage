@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filipe Santos</title>
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <!--<a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a>-->
+    <link rel="icon" href="images/brand.png" type="image/x-icon">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -26,30 +25,43 @@
         </button>
         <!-- Menu Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <!-- Home Link -->
-                    <a class="nav-link" href="#Home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <!-- About Link -->
-                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link" href="#projects-container">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/f-i-l-i-p-e/" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/f-i-l-i-p-e/" target="_blank" class="nav-link"><i class="fab fa-linkedin fa-lg" ></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/f-i-l-i-p-e/" target="_blank" class="nav-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/f-i-l-i-p-e/" target="_blank" class="nav-link"><i class="fab fa-github fa-lg" ></i></a>
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav>  
     <!-- Jumbotron -->
-    <div class="jumbotron-container">
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome!</h1>
-            <p class="lead">Your content here</p>
-        </div>
+    <div class="jumbotron-container" id="about">
+        <div class="jumbotron code-editor">
+            <pre>
+                <span class="comment">// Welcome to my website</span>
+                <span class="function">function</span> <span class="func-name">introduction</span>() {
+                    <span class="var-keyword">let</span> <span class="var-name">name</span> = <span class="string">'Filipe'</span>;
+                    console.log(<span class="string">'Hello, I'm '</span> + <span class="var-name">name</span> + <span class="string">'. Thanks for coming here.'</span>);
+        
+                    <span class="comment">// A bit about me</span>
+                    console.log(<span class="string">'I'm a Web Developer and Computer Programming student deeply passionate about development.'</span>);
+                    console.log(<span class="string">'With a coding background I also bring insights from my earlier roles in management and QA outside the tech world.'</span>);
+                    console.log(<span class="string">'I'm eager to explore where this IT adventure leads me next!'</span>);
+                    console.log(<span class="string">'Feel free to connect, browse my Github, or visit my LinkedIn.'</span>);
+                    console.log(<span class="string">'Thanks and enjoy your stay!'</span>);
+                }
+                <span class="function-call">introduction()</span>;
+            </pre>
+        </div>        
     </div>
     <!-- Container -->
     <div class="container-fluid" id="projects-container">
@@ -57,11 +69,22 @@
     </div>
     <!-- Footer -->
     <footer>
-        <div class="container text-center py-3">
-          <!-- Group Info -->
-          <p></p>
+        <div class="content-wrapper">
+            <div class="code-resources">
+                <p>If you're intrigued by the world of coding or wish to delve deeper, here are some great free resources that could help on this journey:</p>
+                <ul>
+                    <li><i class="fas fa-terminal"></i> <a href="https://www.freecodecamp.org/learn/" target="_blank" rel="noopener noreferrer"> FreeCodeCamp</a> - Comprehensive web development curriculum.</li>
+                    <li><i class="fas fa-terminal"></i> <a href="https://ocw.mit.edu/collections/introductory-programming/" target="_blank" rel="noopener noreferrer"> MIT OpenCourseWare: Introductory Programming</a> - An introduction to the essence of programming from MIT.</li>
+                    <li><i class="fas fa-terminal"></i> <a href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer"> The Odin Project</a> - A full-stack curriculum including HTML, CSS, JavaScript, Git, NodeJS, SQL, and Ruby on Rails.</li>
+                    <li><i class="fas fa-terminal"></i> <a href="https://www.mooc.fi/en/#courses" target="_blank" rel="noopener noreferrer"> MOOC.fi</a> - A variety of courses spanning from basic to advanced, brought to you by the University of Helsinki.</li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/f-i-l-i-p-e/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/F-i-l-i-p-e" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
         </div>
-    </footer>      
+    </footer> 
     <!-- jQuery Script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <!-- Popper Script -->

@@ -13,43 +13,144 @@ body {
     transition: background 0.5s;
 }
 
+.navbar-toggler-icon {
+    background-image: none !important;
+}
+
+.navbar-toggler span {
+    background-color: #8c86df;
+    height: 2px;
+    width: 20px;
+    margin-top: 4px;
+}
+
 .navbar.scrolled {
     background: white;
+}
+.navbar-toggler-icon {
+    color: #8c86df;
+}
+.navbar .nav-link {
+    color: #8c86df !important;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* added transform for scaling effect */
+}
+.navbar-nav{
+    margin-left: 80%;
+}
+
+.navbar .nav-link:hover {
+    color: #b7b3e2 !important;
+    transform: scale(1.1); /* slightly enlarges the link on hover */
+    transform-origin: right center;
+}
+
+@media (max-width: 991px) { /* Assuming the breakpoint is at 992px */
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+/* Bounce animation using keyframes */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.navbar .nav-link:hover .fab {
+    animation: bounce 0.6s; 
 }
 
 .jumbotron-container {
     height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
 .jumbotron{
-    height: 50vh;
-    width: 70vw;
+    width: 90%;  /* Decrease to 90% so it fits with some padding */
+    max-width: 90%px;  /* Limit the width to a readable max width */
+    margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.952);
     color: #2f373f;
     margin-bottom: 0;
+    box-shadow: 0 0 6px #8c86dfb8, 0 0 8px #8c86df99, 0 0 8px #4b48b0a8, 0 0 12px #4b48b09f;
+    
+    
 }
+
+.code-editor {
+    background-color: #2c2b3f; /* Dark background typical of code editors */
+    color: #abb2bf;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.comment {
+    color: #5c6370;
+}
+
+.function {
+    color: #c678dd;
+}
+
+.func-name {
+    color: #61afef;
+}
+
+.var-keyword {
+    color: #e06c75;
+}
+
+.var-name {
+    color: #e5c07b;
+}
+
+.string {
+    color: #98c379;
+}
+
+.function-call {
+    color: #56b6c2;
+}
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    word-wrap: break-word;      /* Internet Explorer 5.5+ */
+    overflow-x: auto;           /* for horizontal scrolling if needed */
+}
+
 
 #projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #2f373f;
+    background-color: #18304c;
     margin-top: 0;
 }
 
 .project-card {
-    background-color: #6d7775;
+    background-color: #eee6f4;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
     padding: 20px;
-    width: 300px;
+    max-width: 400px;
+    height: 420px; /* Adjust height to ensure uniformity. Adjust as needed */
+    position: relative; /* Allows for absolute positioning of child elements */
+    transition: transform 1s ease-in-out;
 }
 
 .project-card img {
@@ -60,20 +161,38 @@ body {
     height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
+    transition: all 1s ease;
 }
 
 .project-card h4 {
-    color: #ffffff;
+    color: #292727;
     text-align: center;
 }
 
 .project-card p {
-    color: #e4dede;
+    color: #292727;
+    flex: 1; /* Allows paragraph content to take up available space */
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: all 600ms ease;
+    box-shadow: 0 0 3px #8c86df, 0 0 6px #8c86df, 0 0 6px #4c48b0, 0 0 8px #4c48b0;
+}
+
+.project-card > img {
+    width: 150px; /* or any desired width */
+    height: auto; /* to maintain aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Ensure the button is always at the bottom of the card */
+.project-card .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .about-content {
@@ -90,6 +209,29 @@ body {
 #projects-container.about-mode {
     justify-content: center;
 }
+
+/* Base button style */
+.btn-custom {
+    background: linear-gradient(to right, #8c86df, #4c48b0); /* Gradient from #8c86df to a deeper blue */
+    border: none;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow below the button */
+    color: white; /* Text color */
+    
+}
+
+/* Hover effect */
+.btn-custom:hover {
+    background: linear-gradient(to right, #8c86df, #403d97); /* Invert gradient on hover for a subtle effect */
+    color: white; /* Ensure text remains white on hover */
+    scale: 0.99;
+}
+
+/* Pressed effect */
+.btn-custom:active {
+    transform: scale(1); /* Resets the size to default when button is pressed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Less pronounced shadow when pressed */
+}
+
 
 .overlay {
     position: fixed;
@@ -114,7 +256,50 @@ body {
 footer {
     background-color: #f8f9fa;
     padding: 20px 0;
-    text-align: center;
+  
 }
 
+footer {
+    padding: 20px 50px;
+    background-color: #2c2c2c;
+    color: #FFF;
+}
+
+.content-wrapper {
+    text-align: center;
+    max-width: 800px;  /* Adjust if necessary */
+    margin: 0 auto;
+}
+
+.code-resources {
+    margin-bottom: 20px;
+}
+
+.code-resources ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.code-resources a,
+.social-icons a {
+    color: #8c86df;
+    transition: color 0.3s ease;
+}
+
+.code-resources a:hover,
+.social-icons a:hover {
+    color: #4c48b0;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+}
 

@@ -1,12 +1,12 @@
 [
     {
-        "name": "Webify",
-        "description": "A web development toolkit offering a wide range of utilities.",
-        "techStack": "React, Node.js",
+        "name": "Form and Excel functions",
+        "description": "The project is a web application with a main page containing a form (index.html) and a secondary page demonstrating Excel-like functions (excel.html).",
+        "techStack": "The application is developed using HTML for structure, CSS for styling, and JavaScript for interactivity and functionality. The JavaScript code, found in script.js, leverages the Document Object Model (DOM) to manipulate webpage elements and handle events, and it also uses Web Storage (localStorage) to save theme preferences.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View on GitHub",
-            "link": "https://github.com/user/webify"
+            "link": "https://f-i-l-i-p-e.github.io/JS-DomAndEventsForms/index.html"
         }
     },
     {
