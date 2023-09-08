@@ -2,7 +2,7 @@
     {
         "name": "Form and Excel functions",
         "description": "The project is a web application with a main page containing a form and a secondary page demonstrating Excel-like functions. From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
-        "techStack": "The application is developed using HTML for structure, CSS for styling, and JavaScript for interactivity and functionality. The JavaScript code, found in script.js, leverages the Document Object Model (DOM) to manipulate webpage elements and handle events, and it also uses Web Storage (localStorage) to save theme preferences.",
+        "techStack": "The application is developed using <span class=highlightWord>HTML</span> for structure, <span class=highlightWord>CSS/Bootstrap</span> for styling, and <span class=highlightWord>JavaScript</span> for interactivity and functionality. The <span class=highlightWord>JavaScript</span> code leverages the <span class=highlightWord>Document Object Model (DOM)</span> to manipulate webpage elements and <span class=highlightWord>handle events</span>, and it also uses <span class=highlightWord>Web Storage (localStorage)</span> to save theme preferences.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View live on GitHub",
@@ -12,7 +12,7 @@
     {
         "name": "Area Calculator",
         "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes and visualizes these shapes using SVG.  From this project creates interactive web forms, perform mathematical calculations in JavaScript, manipulate SVG graphics in the DOM, and integrate with external JavaScript libraries.",
-        "techStack": "The calculator is built using HTML for structure and uses Bootstrap for styling. The main interactivity and calculations are achieved using embedded JavaScript. Additionally, the application leverages external libraries like jQuery, Bootstrap's JavaScript components, and Math.js for mathematical operations.",
+        "techStack": "The calculator is built using <span class=highlightWord>HTML</span> for structure and uses <span class=highlightWord>Bootstrap</span> for styling. The main interactivity and calculations are achieved using embedded <span class=highlightWord>JavaScript</span>. Additionally, the application leverages external libraries like <span class=highlightWord>jQuery</span>, <span class=highlightWord>JavaScript</span> components for mathematical operations.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View live on GitHub",
@@ -21,8 +21,8 @@
     },
     {
         "name": "Plant Encyclopedia",
-        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI..",
-        "techStack": "The application is structured using HTML, styled with CSS, and incorporates interactivity through JavaScript. The JavaScript code interacts with an external JSON data source, fetches data using the Fetch API, and dynamically updates the DOM to display the retrieved data.",
+        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
+        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View live on GitHub",
@@ -31,8 +31,8 @@
     },
     {
         "name": "Dulce De Leche Page",
-        "description": "A webpage showcasing Dulce De Leche with a dynamic navbar, interactive image gallery, and wave effects using SVGs for styling. This project offers insights into creating responsive navbars, crafting image galleries, and enhancing web interactivity using JavaScript, emphasizing the distinctive design potential of SVG",
-        "techStack": "The webpage is structured using HTML, styled with CSS and Bootsrap — including the use of SVG for unique design effects — and incorporates interactivity through JavaScript. The JavaScript code dynamically modifies the DOM based on user interactions like scrolling and clicking, thereby enhancing the user experience.",
+        "description": "A webpage showcasing Dulce De Leche with a dynamic navbar, interactive image gallery, and wave effects using SVGs for styling. This project offers insights into creating responsive navbars, crafting image galleries, and enhancing web interactivity using JavaScript, emphasizing the distinctive design potential of SVG.",
+        "techStack": "The webpage is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS and Bootsrap</span> — including the use of <span class=highlightWord>SVG</span> for unique design effects — and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code dynamically modifies the DOM based on user interactions like scrolling and clicking, thereby enhancing the user experience.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View live on GitHub",
