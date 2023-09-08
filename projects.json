@@ -21,7 +21,7 @@
     },
     {
         "name": "Plant Encyclopedia",
-        "description": "The application is a web-based plant information viewer. It fetches and displays data about various plants in a card format, using information from a JSON data source created for this purpose. From this project, one can learn about asynchronous data fetching using the Fetch API, dynamic DOM manipulation to render data, and techniques like cache-busting to ensure the most recent data is retrieved. The application also demonstrates the integration of JSON data into a web interface.",
+        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI..",
         "techStack": "The application is structured using HTML, styled with CSS, and incorporates interactivity through JavaScript. The JavaScript code interacts with an external JSON data source, fetches data using the Fetch API, and dynamically updates the DOM to display the retrieved data.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
@@ -31,7 +31,7 @@
     },
     {
         "name": "Dulce De Leche Page",
-        "description": "A Webpage dedicated to the best treat of all: Dulce De Leche. Features include a dynamic navbar that changes appearance based on scroll position, an interactive image gallery where users can click to view images of related content, and also features a distinctive page styling using SVGs to create visually appealing wave effects. From this project, one can learn about creating dynamic navigation bars that respond to scroll events, building interactive image galleries, manipulating the DOM using JavaScript to enhance user interactivity From this project, one can learn about creating dynamic navigation bars that respond to scroll events, building interactive image galleries, and manipulating the DOM using JavaScript to enhance user interactivity. A unique aspect is the use of SVG for styling.",
+        "description": "A webpage showcasing Dulce De Leche with a dynamic navbar, interactive image gallery, and wave effects using SVGs for styling. This project offers insights into creating responsive navbars, crafting image galleries, and enhancing web interactivity using JavaScript, emphasizing the distinctive design potential of SVG",
         "techStack": "The webpage is structured using HTML, styled with CSS and Bootsrap — including the use of SVG for unique design effects — and incorporates interactivity through JavaScript. The JavaScript code dynamically modifies the DOM based on user interactions like scrolling and clicking, thereby enhancing the user experience.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
