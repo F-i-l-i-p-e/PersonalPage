@@ -40,13 +40,13 @@
         }
     },
     {
-        "name": "ChatZone",
-        "description": "A real-time chat application with integrated video calling.",
-        "techStack": "Socket.io, WebRTC",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "name": "Java FX - Nasa Image API",
+        "description": "The application is a JavaFX-based tool that interacts with an external API to fetch and display NASA images. Users can explore various images, each represented with details like ID, title, and description.",
+        "techStack": "Developed in Java with <span class=highlightWord>JavaFX</span> for the graphical user interface. It utilizes the <span class=highlightWord>Gson library</span> for <span class=highlightWord>JSON parsing</span>, data interactions with a JSON-based external API. Use of <span class=highlightWord>MVC (Model-View-Controller) design pattern</span> , with separate classes for managing <span class=highlightWord>API interactions</span>, data representation, and <span class=highlightWord>user interface control</span>.",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/JavaAPISearch/main/Screenshot.png",
         "button": {
             "label": "View on GitHub",
-            "link": "https://github.com/user/chatzone"
+            "link": "https://github.com/F-i-l-i-p-e/JavaAPISearch"
         }
     },
     {
