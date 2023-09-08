@@ -1,42 +1,42 @@
 [
     {
         "name": "Form and Excel functions",
-        "description": "The project is a web application with a main page containing a form (index.html) and a secondary page demonstrating Excel-like functions (excel.html).",
+        "description": "The project is a web application with a main page containing a form (index.html) and a secondary page demonstrating Excel-like functions (excel.html). From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
         "techStack": "The application is developed using HTML for structure, CSS for styling, and JavaScript for interactivity and functionality. The JavaScript code, found in script.js, leverages the Document Object Model (DOM) to manipulate webpage elements and handle events, and it also uses Web Storage (localStorage) to save theme preferences.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
-            "label": "View on GitHub",
+            "label": "View live on GitHub",
             "link": "https://f-i-l-i-p-e.github.io/JS-DomAndEventsForms/index.html"
         }
     },
     {
-        "name": "DataDive",
+        "name": "Area Calculator",
         "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes (circle, triangle, square, rectangle) and visualizes these shapes using SVG.",
-        "techStack": "The calculator is built using HTML for structure and uses Bootstrap for styling. The main interactivity and calculations are achieved using embedded JavaScript. Additionally, the application leverages external libraries like jQuery, Bootstrap's JavaScript components, and Math.js for mathematical operations.",
+        "techStack": "The calculator is built using HTML for structure and uses Bootstrap for styling. The main interactivity and calculations are achieved using embedded JavaScript. Additionally, the application leverages external libraries like jQuery, Bootstrap's JavaScript components, and Math.js for mathematical operations. From this project, one can learn how to create interactive web forms, perform mathematical calculations in JavaScript, manipulate SVG graphics in the DOM, and integrate with external JavaScript libraries.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
-            "label": "View on GitHub",
+            "label": "View live on GitHub",
             "link": "https://f-i-l-i-p-e.github.io/JS_AreaCalculator/"
         }
     },
     {
-        "name": "AutoML",
-        "description": "An automated machine learning platform for quick model training.",
-        "techStack": "TensorFlow, Flask",
+        "name": "Plant Encyclopedia",
+        "description": "The application is a web-based plant information viewer. It fetches and displays data about various plants in a card format, using information from a JSON data source created for this purpose. From this project, one can learn about asynchronous data fetching using the Fetch API, dynamic DOM manipulation to render data, and techniques like cache-busting to ensure the most recent data is retrieved. The application also demonstrates the integration of JSON data into a web interface.",
+        "techStack": "The application is structured using HTML, styled with CSS, and incorporates interactivity through JavaScript. The JavaScript code interacts with an external JSON data source, fetches data using the Fetch API, and dynamically updates the DOM to display the retrieved data.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
-            "label": "View on GitHub",
-            "link": "https://github.com/user/automl"
+            "label": "View live on GitHub",
+            "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
         }
     },
     {
-        "name": "ChatZone",
-        "description": "A real-time chat application with integrated video calling.",
-        "techStack": "Socket.io, WebRTC",
+        "name": "Dulce De Leche Page",
+        "description": "A Webpage dedicated to the best treat of all: Dulce De Leche. Features include a dynamic navbar that changes appearance based on scroll position, an interactive image gallery where users can click to view images of related content, and also features a distinctive page styling using SVGs to create visually appealing wave effects. From this project, one can learn about creating dynamic navigation bars that respond to scroll events, building interactive image galleries, manipulating the DOM using JavaScript to enhance user interactivity From this project, one can learn about creating dynamic navigation bars that respond to scroll events, building interactive image galleries, and manipulating the DOM using JavaScript to enhance user interactivity. A unique aspect is the use of SVG for styling.",
+        "techStack": "The webpage is structured using HTML, styled with CSS and Bootsrap — including the use of SVG for unique design effects — and incorporates interactivity through JavaScript. The JavaScript code dynamically modifies the DOM based on user interactions like scrolling and clicking, thereby enhancing the user experience.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
-            "label": "View on GitHub",
-            "link": "https://github.com/user/chatzone"
+            "label": "View live on GitHub",
+            "link": "https://f-i-l-i-p-e.github.io/DulceDeLeche-Page/"
         }
     },
     {
