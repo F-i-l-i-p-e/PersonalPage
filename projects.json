@@ -75,7 +75,7 @@
         "techStack": "<span class=highlightWord>CSS</span> properties handle the <span class=highlightWord>responsiveness</span> and <span class=highlightWord>keyframe animations</span> for visual feedback. <span class=highlightWord>JavaScript</span> portion integrates the Fetch API for <span class=highlightWord>dynamic data retrieval</span> and uses <span class=highlightWord>event listeners</span> to enhance interactivity, like dynamically updating the navbar based on user scroll and clicking on Image. <span class=highlightWord>jQuery</span> is incorporated to further streamline <span class=highlightWord>DOM manipulations and event handling</span>.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",  
         "button": {
-            "label": "View on GitHub",
+            "label": "You are already here! :)",
             "link": "https://f-i-l-i-p-e.github.io/PersonalPage/"
         }
     }
