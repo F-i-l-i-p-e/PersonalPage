@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    scroll-behavior: smooth;
+    background-image: url('https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -196,16 +197,8 @@ pre {
     transform: translateX(-50%);
     transform-origin: right center;
 }
-
-.about-content {
-    background-color: #546662;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-    color: #ffffff;
+.highlightWord{
+    color: #8c86df;
 }
 
 #projects-container.about-mode {
