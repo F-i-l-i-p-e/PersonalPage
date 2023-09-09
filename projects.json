@@ -71,12 +71,12 @@
     },
     {
         "name": "Personal Page",
-        "description": "Personal Page is a personal portfolio website that serves as a platform to display technical projects, giving users insight into the range of work and skills possessed. It exemplifies how to build a clean, responsive web interface using foundational web technologies. It highlights the practical use of JSON for content management, the integration of external assets like images, and the creation of a cohesive user experience through design and interactivity.",
+        "description": "Personal Page is showcase website giving users insight into the range of work and skills possessed. It exemplifies how to build a clean, responsive web interface using foundational web technologies and highlights the use of JSON for content management, the integration of external assets, and the creation of a cohesive user experience through design and interactivity.",
         "techStack": "<span class=highlightWord>HTML, CSS, and JavaScript</span>. In the <span class=highlightWord>CSS</span>, properties are employed to handle <span class=highlightWord>responsiveness</span> and <span class=highlightWord>keyframe animations</span> for visual feedback. The <span class=highlightWord>JavaScript</span> portion integrates the Fetch API for <span class=highlightWord>dynamic data retrieval</span> and uses <span class=highlightWord>event listeners</span> to enhance interactivity, like dynamically updating the navbar based on user scroll and clicking on Image. <span class=highlightWord>jQuery</span> is incorporated to further streamline <span class=highlightWord>DOM manipulations and event handling</span>. The project structure is modular, with data-driven segments powered by a <span class=highlightWord>Json</span> file.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",  
         "button": {
             "label": "View on GitHub",
-            "link": "https://github.com/user/chatzone"
+            "link": "https://f-i-l-i-p-e.github.io/PersonalPage/"
         }
     }
 ]
