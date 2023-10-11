@@ -1,7 +1,7 @@
 [
     {
         "name": "<span class=highlightWordProj>Peep - Twitter Clone</span>",
-        "description": "<span class=textColor>Peep is a Twitter clone that integrates features like posting, liking, and following, along with a secure login system and notification management. User profiles can be customized with Bio, profile and cover images, and navigation options of Light and Dark modes. <br<The front-end is developed using React and Next.js, styled with CSS and Tailwind, and strongly typed using TypeScript. The back-end is managed by Node.js, and data storage is handled by MongoDB. Authentication is facilitated through NextAuth, and the application is deployed on AWS.</span>",
+        "description": "<span class=textColor>Peep is a Twitter clone that integrates features like posting, liking, and following, along with a secure login system and notification management. User profiles can be customized with Bio, profile and cover images, and navigation options of Light and Dark modes. <br>The front-end is developed using React and Next.js, styled with CSS and Tailwind, and strongly typed using TypeScript. The back-end is managed by Node.js, and data storage is handled by MongoDB. Authentication is facilitated through NextAuth, and the application is deployed on AWS.</span>",
         "builtWith": "<span class=highlightWordProj>React, Next.js, CSS, Tailwind, TypeScript, Node.js, MongoDB, NextAuth, AWS</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/Peep.png",
         "button": {
@@ -31,7 +31,7 @@
     },
     {
         "name": "<span class=highlightWordProj>Document and Invoice App</span>",
-        "description": "<span class=textColor>The Document and Invoice App is a Python toolset designed for automating invoice document creation and analysis. It uses docx library for Word operations and the openpyxl library for Excel tasks. <br<The application employs regular expressions and random data generation techniques to simulate real-world invoice creation and processing.</span>",
+        "description": "<span class=textColor>The Document and Invoice App is a Python toolset designed for automating invoice document creation and analysis. It uses docx library for Word operations and the openpyxl library for Excel tasks. <br>The application employs regular expressions and random data generation techniques to simulate real-world invoice creation and processing.</span>",
         "builtWith": "<span class=highlightWordProj>Python, docx library, openpyxl, Word, Excel, Regular Expressions</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.png",
         "button": {
