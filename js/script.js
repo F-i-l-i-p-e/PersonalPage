@@ -57,7 +57,7 @@ function fetchProjects() {
                 <img src="${project.image}" alt="${project.name}" class="project-image">
                 <h4>${project.name}</h4>
                 <p><strong>Description:</strong> ${project.description}</p>
-                <p><strong>Tech Stack:</strong> ${project.techStack}</p>
+                <p><strong>Built With:</strong> ${project.techStack}</p>
                 <div class="mt-auto">
                     <a href="${project.button.link}" class="btn btn-primary btn-custom" target="_blank">${project.button.label}</a>
                 </div>
