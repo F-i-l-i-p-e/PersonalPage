@@ -1,32 +1,12 @@
 [    
     {
-        "name": "Plant Encyclopedia",
-        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
-        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "name": "Peep - Twitter Clone",
+        "description": "A Twitter clone that allows users to post, like, and follow. It features a login system, notification management, and the ability to customize profile and cover images.",
+        "techStack": "The application is built using <span class=highlightWord>React</span> and <span class=highlightWord>Next.js</span> for the front-end, styled using<span class=highlightWord>CSS and Tailwind</span>, and utilizes <span class=highlightWord>TypeScript</span> for strong typing. The back-end is handled by <span class=highlightWord>Node.js</span>, with data storage in <span class=highlightWord>MongoDB</span>. Authentication is managed through <span class=highlightWord>NextAuth</span> and is deployed on <span class=highlightWord>AWS(Amazon Web Services)</span>.",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/Peep.png",
         "button": {
-            "label": "View live on GitHub",
-            "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
-        }
-    },
-    {
-        "name": "Dulce De Leche Page",
-        "description": "A webpage showcasing Dulce De Leche with a dynamic navbar, interactive image gallery, and wave effects using SVGs for styling. This project offers insights into creating responsive navbars, crafting image galleries, and enhancing web interactivity using JavaScript, emphasizing the distinctive design potential of SVG.",
-        "techStack": "The webpage is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS and Bootsrap</span> — including the use of <span class=highlightWord>SVG</span> for unique design effects — and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code dynamically modifies the DOM based on user interactions like scrolling and clicking, thereby enhancing the user experience.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
-        "button": {
-            "label": "View live on GitHub",
-            "link": "https://f-i-l-i-p-e.github.io/DulceDeLeche-Page/"
-        }
-    },
-    {
-        "name": "NASA Image App",
-        "description": "The application is a JavaFX-based tool designed to fetch and present NASA Images through an external API  With a user-friendly interface, users can navigate and explore various space and NASA related  images, each represented with details like ID, title, date and description.",
-        "techStack": "Developed in Java with <span class=highlightWord>JavaFX</span> for the graphical user interface. It utilizes the <span class=highlightWord>Gson library</span> for <span class=highlightWord>JSON parsing</span>, data interactions with a JSON-based external API. Use of <span class=highlightWord>MVC (Model-View-Controller) design pattern</span> , with separate classes for managing <span class=highlightWord>API interactions</span>, data representation, and <span class=highlightWord>user interface control</span>.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/JavaAPISearch/main/Screenshot.png",
-        "button": {
-            "label": "Repository on GitHub",
-            "link": "https://github.com/F-i-l-i-p-e/JavaAPISearch"
+            "label": "View live on AWS",
+            "link": "http://3.18.214.64:3000"
         }
     },
     {
@@ -40,23 +20,13 @@
         }
     },
     {
-        "name": "Form and Excel functions",
-        "description": "The project is a web application with a main page containing a form and a secondary page demonstrating Excel-like functions. From this project, one can learn how to create and process web forms, implement Excel-like functions in a webpage, manipulate the DOM using JavaScript, handle user events, and dynamically switch between dark and light themes using Web Storage.",
-        "techStack": "The application is developed using <span class=highlightWord>HTML</span> for structure, <span class=highlightWord>CSS/Bootstrap</span> for styling, and <span class=highlightWord>JavaScript</span> for interactivity and functionality. The <span class=highlightWord>JavaScript</span> code leverages the <span class=highlightWord>Document Object Model (DOM)</span> to manipulate webpage elements and <span class=highlightWord>handle events</span>, and it also uses <span class=highlightWord>Web Storage (localStorage)</span> to save theme preferences.",
+        "name": "Plant Encyclopedia",
+        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
+        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
         "button": {
             "label": "View live on GitHub",
-            "link": "https://f-i-l-i-p-e.github.io/JS-DomAndEventsForms/index.html"
-        }
-    },
-    {
-        "name": "Area Calculator",
-        "description": "The application is a web-based area calculator that allows users to compute the area of various geometric shapes and visualizes these shapes using SVG.  From this project creates interactive web forms, perform mathematical calculations in JavaScript, manipulate SVG graphics in the DOM, and integrate with external JavaScript libraries.",
-        "techStack": "The calculator is built using <span class=highlightWord>HTML</span> for structure and uses <span class=highlightWord>Bootstrap</span> for styling. The main interactivity and calculations are achieved using embedded <span class=highlightWord>JavaScript</span>. Additionally, the application leverages external libraries like <span class=highlightWord>jQuery</span>, <span class=highlightWord>JavaScript</span> components for mathematical operations.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
-        "button": {
-            "label": "View live on GitHub",
-            "link": "https://f-i-l-i-p-e.github.io/JS_AreaCalculator/"
+            "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
         }
     },
     {
@@ -67,16 +37,6 @@
         "button": { 
             "label": "Repository on GitHub",
             "link": "https://github.com/F-i-l-i-p-e/PythonDocAndInvoice"
-        }
-    },
-    {
-        "name": "Personal Page",
-        "description": "Personal Page is a showcase website giving insight into the range of work and skills possessed. It exemplifies how to build a clean, responsive web interface using foundational web technologies and highlights the use of JSON for content management, the integration of external assets like images, and the creation of a cohesive user experience through design and interactivity.",
-        "techStack": "<span class=highlightWord>CSS</span> properties handle the <span class=highlightWord>responsiveness</span> and <span class=highlightWord>keyframe animations</span> for visual feedback. <span class=highlightWord>JavaScript</span> portion integrates the Fetch API for <span class=highlightWord>dynamic data retrieval</span> and uses <span class=highlightWord>event listeners</span> to enhance interactivity, like dynamically updating the navbar based on user scroll and clicking on Image. <span class=highlightWord>jQuery</span> is incorporated to further streamline <span class=highlightWord>DOM manipulations and event handling</span>.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",  
-        "button": {
-            "label": "You are already here! :)",
-            "link": "https://f-i-l-i-p-e.github.io/PersonalPage/"
         }
     }
 ]
