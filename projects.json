@@ -23,7 +23,7 @@
         "name": "Plant Encyclopedia",
         "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
         "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/gitLogo.png",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/plantApp.jpg",
         "button": {
             "label": "View live on GitHub",
             "link": "https://f-i-l-i-p-e.github.io/PlantAPI/"
@@ -31,7 +31,7 @@
     },
     {
         "name": "Document and Invoice App",
-        "description": "A Python-based toolset designed to create, process, and analyze invoice documents. Generate random invoice Word documents and extract specific invoice data to populate an Excel spreadsheet. This project automate document creation and processing in Python. It showcases the capabilities of the docx and openpyxl libraries, using techniques for generating randomized data, creating Word documents programmatically, and extracting specific information from documents.",
+        "description": "A Python toolset for automating invoice document creation and analysis. Utilizes the docx library for Word operations and openpyxl for Excel tasks. Features include random data generation, programmatic Word creation, and data extraction.",
         "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.png", 
         "button": { 
