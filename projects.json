@@ -1,8 +1,8 @@
 [
     {
-        "name": "Peep - Twitter Clone",
+        "name": "<span class=highlightWord>Peep - Twitter Clone</span>",
         "description": "Peep is a Twitter clone that integrates features like posting, liking, and following, along with a secure login system and notification management. User profiles can be customized with profile and cover images. The front-end is developed using React and Next.js, styled with CSS and Tailwind, and strongly typed using TypeScript. The back-end is managed by Node.js, and data storage is handled by MongoDB. Authentication is facilitated through NextAuth, and the application is deployed on AWS.",
-        "builtWith": "React, Next.js, CSS, Tailwind, TypeScript, Node.js, MongoDB, NextAuth, AWS",
+        "builtWith": "<span class=highlightWord>React, Next.js, CSS, Tailwind, TypeScript, Node.js, MongoDB, NextAuth, AWS</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/Peep.png",
         "button": {
             "label": "View live on AWS",
@@ -10,9 +10,9 @@
         }
     },
     {
-        "name": "Game List Webapp",
+        "name": "<span class=highlightWord>Game List Webapp</span>",
         "description": "The Game List Webapp is a web-based platform designed to showcase information about various games in a structured format. Developed using ASP.NET Core MVC, it adheres to the MVC pattern, allowing seamless creation and management of models, services, and controllers. It also emphasizes data retrieval and manipulation in JSON format.",
-        "builtWith": "ASP.NET Core MVC, MVC pattern, JSON",
+        "builtWith": "<span class=highlightWord>ASP.NET Core MVC, MVC pattern, JSON</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/GameTop10.Website-Asp-/main/Print%20GameListApp.jpg",
         "button": {
             "label": "Repository on GitHub",
@@ -20,9 +20,9 @@
         }
     },
     {
-        "name": "Plant Encyclopedia",
+        "name": "<span class=highlightWord>Plant Encyclopedia</span>",
         "description": "The Plant Encyclopedia is a web application that dynamically displays plant data from a custom JSON source. Developed using HTML and styled with CSS and Bootstrap, it offers a seamless user experience. JavaScript code fetches data using the Fetch API and dynamically updates the DOM to present the retrieved data.",
-        "builtWith": "HTML, CSS, Bootstrap, JavaScript, JSON, Fetch API, DOM",
+        "builtWith": "<span class=highlightWord>HTML, CSS, Bootstrap, JavaScript, JSON, Fetch API, DOM</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/plantApp.jpg",
         "button": {
             "label": "View live on GitHub",
@@ -30,9 +30,9 @@
         }
     },
     {
-        "name": "Document and Invoice App",
+        "name": "<span class=highlightWord>Document and Invoice App</span>",
         "description": "The Document and Invoice App is a Python toolset designed for automating invoice document creation and analysis. It leverages the docx library for Word operations and the openpyxl library for Excel tasks. The application employs regular expressions and random data generation techniques to simulate real-world invoice creation and processing.",
-        "builtWith": "Python, docx library, openpyxl, Word, Excel, Regular Expressions",
+        "builtWith": "<span class=highlightWord>Python, docx library, openpyxl, Word, Excel, Regular Expressions</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.png",
         "button": {
             "label": "Repository on GitHub",
