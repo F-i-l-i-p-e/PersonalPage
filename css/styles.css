@@ -200,6 +200,13 @@ pre {
 .highlightWord{
     color: #8c86df;
 }
+.highlightWordProj{
+    color: #524d98;
+}
+
+.textColor{
+    color: rgb(35, 33, 33);
+}
 
 #projects-container.about-mode {
     justify-content: center;
@@ -297,4 +304,3 @@ footer {
 .social-icons a {
     font-size: 1.5em;
 }
-
