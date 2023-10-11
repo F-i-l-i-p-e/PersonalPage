@@ -11,7 +11,7 @@
     },
     {
         "name": "<span class=highlightWordProj>Game List Webapp</span>",
-        "description": "<span class=textColor>The Game List Webapp is a web-based platform designed to showcase information about various games in a structured format. Developed using ASP.NET Core MVC, it adheres to the MVC pattern, allowing seamless creation and management of models, services, and controllers. It also emphasizes data retrieval and manipulation in JSON format.</span>",
+        "description": "<span class=textColor>The Game List Webapp is a web-based platform designed to showcase information about various games in a structured format. Developed using ASP.NET Core MVC, it adheres to the MVC pattern, allowing creation and management of models, services, and controllers. It also emphasizes data retrieval and manipulation in JSON format.</span>",
         "builtWith": "<span class=highlightWordProj>ASP.NET Core MVC, MVC pattern, JSON</span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/GameTop10.Website-Asp-/main/Print%20GameListApp.jpg",
         "button": {
@@ -21,7 +21,7 @@
     },
     {
         "name": "<span class=highlightWordProj>Plant Encyclopedia</span>",
-        "description": "<span class=textColor>The Plant Encyclopedia is a web application that dynamically displays plant data from a custom JSON source. Developed using HTML and styled with CSS and Bootstrap, it offers a seamless user experience. JavaScript code fetches data using the Fetch API and dynamically updates the DOM to present the retrieved data.</span>",
+        "description": "<span class=textColor>The Plant Encyclopedia is a web application that dynamically displays plant data from a custom JSON source. Developed using HTML and styled with CSS and Bootstrap, styled with a card style offering great look and easy organization. JavaScript code fetches data using the Fetch API and dynamically updates the DOM to present the retrieved data.</span>",
         "builtWith": "<span class=highlightWordProj> HTML, CSS, Bootstrap, JavaScript, JSON, Fetch API, DOM </span>",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/plantApp.jpg",
         "button": {
