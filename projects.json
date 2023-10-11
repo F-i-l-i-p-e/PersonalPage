@@ -1,8 +1,8 @@
-[    
+[
     {
         "name": "Peep - Twitter Clone",
-        "description": "A Twitter clone that allows users to post, like, and follow. It features a login system, notification management, and the ability to customize profile and cover images.",
-        "techStack": "The application is built using <span class=highlightWord>React</span> and <span class=highlightWord>Next.js</span> for the front-end, styled using<span class=highlightWord>CSS and Tailwind</span>, and utilizes <span class=highlightWord>TypeScript</span> for strong typing. The back-end is handled by <span class=highlightWord>Node.js</span>, with data storage in <span class=highlightWord>MongoDB</span>. Authentication is managed through <span class=highlightWord>NextAuth</span> and is deployed on <span class=highlightWord>AWS(Amazon Web Services)</span>.",
+        "description": "Peep is a Twitter clone that integrates features like posting, liking, and following, along with a secure login system and notification management. User profiles can be customized with profile and cover images. The front-end is developed using React and Next.js, styled with CSS and Tailwind, and strongly typed using TypeScript. The back-end is managed by Node.js, and data storage is handled by MongoDB. Authentication is facilitated through NextAuth, and the application is deployed on AWS.",
+        "techStack": "React, Next.js, CSS, Tailwind, TypeScript, Node.js, MongoDB, NextAuth, AWS",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/Peep.png",
         "button": {
             "label": "View live on AWS",
@@ -11,8 +11,8 @@
     },
     {
         "name": "Game List Webapp",
-        "description": "The application is a web-based platform that presents information about various games. Users can interact with game data, presented in a structured format. This project showcases the process of building web applications with ASP.NET Core MVC.",
-        "techStack": "Developed using <span class=highlightWord>ASP.NET Core MVC</span>, the application adheres to the  <span class=highlightWord>MVC (Model-View-Controller) pattern</span>. It emphasizes the <span class=highlightWord>creation and management of models, services, and controllers, data retrieval and manipulation in JSON format</span>. It utilizes models to represent data; services for business logic and controllers for routing and logic.",
+        "description": "The Game List Webapp is a web-based platform designed to showcase information about various games in a structured format. Developed using ASP.NET Core MVC, it adheres to the MVC pattern, allowing seamless creation and management of models, services, and controllers. It also emphasizes data retrieval and manipulation in JSON format.",
+        "techStack": "ASP.NET Core MVC, MVC pattern, JSON",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/GameTop10.Website-Asp-/main/Print%20GameListApp.jpg",
         "button": {
             "label": "Repository on GitHub",
@@ -21,8 +21,8 @@
     },
     {
         "name": "Plant Encyclopedia",
-        "description": "A web app displaying plant data from a custom JSON source in card format. This project highlights asynchronous data retrieval using the Fetch API, dynamic DOM updates, cache-busting techniques, and integrating JSON into a web UI.",
-        "techStack": "The application is structured using <span class=highlightWord>HTML</span>, styled with <span class=highlightWord>CSS/Bootsrap</span>, and incorporates interactivity through <span class=highlightWord>JavaScript</span>. The <span class=highlightWord>JavaScript</span> code interacts with an external <span class=highlightWord>JSON</span> data source, fetches data using the Fetch API, and <span class=highlightWord>dynamically updates the DOM</span> to display the retrieved data.",
+        "description": "The Plant Encyclopedia is a web application that dynamically displays plant data from a custom JSON source. Developed using HTML and styled with CSS and Bootstrap, it offers a seamless user experience. JavaScript code fetches data using the Fetch API and dynamically updates the DOM to present the retrieved data.",
+        "techStack": "HTML, CSS, Bootstrap, JavaScript, JSON, Fetch API, DOM",
         "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PersonalPage/main/images/plantApp.jpg",
         "button": {
             "label": "View live on GitHub",
@@ -31,10 +31,10 @@
     },
     {
         "name": "Document and Invoice App",
-        "description": "A Python toolset for automating invoice document creation and analysis. Utilizes the docx library for Word operations and openpyxl for Excel tasks. Features include random data generation, programmatic Word creation, and data extraction.",
-        "techStack": "Developed in <span class=highlightWord>Python</span>, the application leverages the <span class=highlightWord>docx library</span> to create and manipulate <span class=highlightWord>Word documents</span>, and the <span class=highlightWord>openpyxl</span> library for <span class=highlightWord>Excel operations</span>. It employs <span class=highlightWord>regular expressions and random data generation</span> techniques to simulate real-world invoice <span class=highlightWord>creation and processing</span>.",
-        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.png", 
-        "button": { 
+        "description": "The Document and Invoice App is a Python toolset designed for automating invoice document creation and analysis. It leverages the docx library for Word operations and the openpyxl library for Excel tasks. The application employs regular expressions and random data generation techniques to simulate real-world invoice creation and processing.",
+        "techStack": "Python, docx library, openpyxl, Word, Excel, Regular Expressions",
+        "image": "https://raw.githubusercontent.com/F-i-l-i-p-e/PythonDocAndInvoice/main/InvoceRecordPython.png",
+        "button": {
             "label": "Repository on GitHub",
             "link": "https://github.com/F-i-l-i-p-e/PythonDocAndInvoice"
         }
